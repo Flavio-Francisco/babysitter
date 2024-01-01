@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "babysitter",
+    "slug": "babysitter",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon1.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splas1.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon1.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.flavioshow31.babysitter"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0a5c532f-a87c-4d2d-a22e-cadb8eb00020"
+      }
+    }
+  }
+}
