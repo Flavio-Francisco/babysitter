@@ -79,7 +79,7 @@ export default function CardForm({ props, closeModal }: CardFormProps) {
 
     const FormValues: ChildsRegistrationform = {
         date: "",
-        avatar: '',
+        avatar: props?.avatar,
         ChildGender: props?.ChildGender,
         DateOfBirth: props?.DateOfBirth,
         nameChild: props?.nameChild,

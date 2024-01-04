@@ -22,11 +22,11 @@
         "foregroundImage": "./assets/icon1.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.flavioshow31.babysitter"
+      "package": "com.flaviofrancisco.babysitter"
     },
     "extra": {
       "eas": {
-        "projectId": "0a5c532f-a87c-4d2d-a22e-cadb8eb00020"
+        "projectId": "a32b7029-ac12-4e75-9a53-4e66ac083bac"
       }
     }
   }

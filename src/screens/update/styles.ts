@@ -9,7 +9,7 @@ export const Conteiner = styled.View`
 export const Logo = styled.Image`
   width: 150px;
   height: 150px;
-  margin-top: 50px;
+  margin-top: 100px;
   margin-bottom: 5px;
 `;
 export const ConteinerCard = styled.View`

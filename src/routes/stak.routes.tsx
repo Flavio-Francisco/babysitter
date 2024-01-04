@@ -14,28 +14,19 @@ export default function Stack() {
 
     const { Navigator, Screen } = createStackNavigator();
     return (
-        <Navigator screenOptions={{
-            headerShown: false,
-
-        }}
+        <Navigator
 
         >
             <Screen
                 name="Drewer"
                 component={Drawer}
-                options={{
-                    headerShown: false
-
-                }}
+             
 
             />
             <Screen
                 name="Home"
                 component={Home}
-                options={{
-                    headerShown: false
-
-                }}
+              
 
             />
             <Screen
@@ -49,19 +40,13 @@ export default function Stack() {
             <Screen
                 name="Atalizar Agendamento "
                 component={Update}
-                options={{
-                    headerShown: false
-
-                }}
+             
 
             />
             <Screen
                 name="Register"
                 component={Register}
-                options={{
-                    headerShown: false
-
-                }}
+              
 
             />
         </Navigator>
